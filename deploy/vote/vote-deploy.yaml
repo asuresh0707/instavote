@@ -9,6 +9,7 @@ spec:
   selector:
     matchLabels:
       app: vote
+      version: v1
   strategy: {}
   template:
     metadata:
